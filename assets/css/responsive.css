@@ -1,0 +1,990 @@
+@media screen and (min-width:1400px) and (max-width:2652px) {
+    .SectionSixCircle{
+        width: 620.43px;
+    }
+    .SectionSevenCircle{
+        width: 576.43px;
+        top: 237px;
+    }
+    .SectionEightCircle{
+        width: 511.43px;
+        top: 254px;
+    }
+    .SectionNineCircle{
+        width: 560.43px;
+        top: 268px;
+    }
+    .SectionTenCircle{
+        width: 355.43px;
+    }
+    .SectionTenDot{
+        top: 339px;
+    }
+    .SectionTenBox{
+        top: 240px;
+        right: 310px;
+    }
+    .Footer{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .SectionFourBox2
+    {
+        left: -43px;
+    }
+    .SectionFourBox1
+    {
+        left: -45px;
+    }
+    .ImpactImages
+    {
+        right: -5px;
+        bottom: 21.5rem;
+    }
+    .ImpactSliderBox1
+    {
+        gap: 3.4rem !important;
+    }
+    .ImpactVideos
+    {
+        margin-left: 140px !important;
+    }
+    #carouselExampleControls
+    {
+        width: 43% !important;
+    }
+
+    /* Service Css */
+
+    .ServiceBorder
+    {
+        left: 200px;
+        top: 50px;
+    }
+    .ServiceIconBox
+    {
+        top: 40px;
+        right: 215px;
+    }
+    .ServiceBlur
+    {
+        top: 15px;
+        right: 185px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 200px;
+        left: 130px;
+    }
+    .ServiceImageBox2
+    {
+        top: 180px;
+        right: 150px;
+    }
+    .contact-span
+    {
+        width: 314px;
+    }
+}
+
+@media screen and (min-width:990px) and (max-width:1199px) {
+    .SectionFourBox3{
+        left: 50px;
+    }
+    .SectionFourBox1
+    {
+        gap: 0rem;
+        left: -82px;
+        top: -160px;
+    }
+    .SectionFourBox2
+    {
+        gap: 0rem;
+        left: -85px;
+        top: -70px;
+    }
+    .plr
+    {
+        padding: 0px 245px
+    }
+    .SectionSixImage
+    {
+        height: auto;
+        width: 318.58px;
+        top: 65px;
+    }
+    .SectionSixCircle
+    {
+        width: 401.43px;
+        height: auto;
+    }
+    .SectionSixH5{
+        font-size: 14px;
+    }
+
+    .SectionSevenCircle
+    {
+        width: 401.43px;
+        height: auto;
+        top: 127px;
+        right: 165px;
+    }
+    .SectionSevenDot
+    {
+        top: 112px;
+    }
+    .SectionSevenBox{
+        top: 25px;
+        left: 50px;
+    }
+    .SectionSevenImage
+    {
+        width: 273.78px;
+        height: auto;
+        top: 146px;
+        left: 87px;
+    }
+    .SectionSevenH5
+    {
+        font-size: 14px;
+    }
+
+    .SectionEightCircle
+    {
+        width: 401.43px;
+        height: auto;
+        top: 34px;
+        left: 30px;
+    }
+    .SectionEightImage
+    {
+        height: auto;
+        width: 315.85px;
+        top: -60px;
+        left: -102px;
+    }
+    .SectionEightDot
+    {
+        top: 20px;
+    }
+    .SectionEightBox
+    {
+        top: auto;
+        bottom: 70px;
+    }
+
+    .SectionNineCircle
+    {
+        width: 401.43px;
+        height: auto;
+        top: auto;
+        bottom: 116px;
+    }
+    .SectionNineImage
+    {
+        width: 273.78px;
+        height: auto;
+        top: auto;
+        bottom: 372px
+    }
+    .SectionNineDot
+    {
+        top: -96px;
+        left: 12px;
+    }
+    .SectionNineBox{
+        top: auto;
+        bottom: 200px;
+    }
+
+    .SectionTenCircle
+    {
+        top: auto;
+        bottom: 535px;
+        left: 197px;
+    }
+    .SectionTenDot
+    {
+        top: auto;
+        bottom: 550px;
+        right: 258px;
+    }
+    .SectionTenImage
+    {
+        top: auto;
+        height: auto;
+        bottom: 200px;
+        right: 80px;
+    }
+    .SectionTenBox
+    {
+        top: auto;
+        bottom: 200px;
+        right: 270px;
+    }
+    .mt-30
+    {
+        margin-top: auto;
+    }
+
+    .CustomFontSizeSectionOne
+    {
+        font-size: 36px !important;
+    }
+
+    .mainBox{
+        height: auto;
+    }
+    .submainBox
+    {
+        width: 616px;
+        height: auto;
+    }
+    .InputTypeText
+    {
+        width: auto;
+    }
+    .InputTypeTextarea
+    {
+        width: 480px;
+    }
+    .Footer
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Service Css */
+
+    .ServiceIconBox
+    {
+        top: 100px;
+        right: 120px;
+    }
+    .ServiceBlur
+    {
+        top: 70px;
+        right: 93px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 150px;
+        left: 50px;
+    }
+    .ServiceImageBox2
+    {
+        top: 230px;
+        right: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .SectionSevenCircle
+    {
+        right: 151px;
+    }
+    .SectionEightImage
+    {
+        top: -84px;
+        left: -38px;
+    }
+    .SectionEightCircle
+    {
+        top: 34px;
+        left: 48px;
+    }
+    .SectionNineCircle
+    {
+        right: 98px;
+    }
+    .SectionTenCircle
+    {
+        left: 245px;
+    }
+    .SectionTenDot {
+        bottom: 590px;
+        right: 190px;
+    }
+    .SectionTenBox {
+        bottom: 235px;
+        right: 210px;
+    }
+    .SectionTenImage
+    {
+        right: 30px;
+    }
+    .submainBox
+    {
+        width: auto;
+    }
+    .InputTypeTextarea {
+        width: 380px;
+    }
+
+    /* Service Css */
+
+    .ServiceSectorBox
+    {
+        gap: 3.5rem;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .ServiceBorder
+    {
+        top: 100px;
+        left: 100px;
+    }
+    .ServiceIconBox
+    {
+        top: 100px;
+        right: 120px;
+    }
+    .ServiceBlur{
+        top: 70px;
+        right: 93px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 150px;
+        left: 0px;
+    }
+    .ServiceImageBox2
+    {
+        top: 230px;
+        right: 80px;
+    }
+
+    /* Company */
+    .CompanyTeamContainer
+    {
+        margin-left: 150px;
+    }
+    .CompanyTeamRow
+    {
+        gap: 2rem;
+    }
+    .CompanyTeamMT-5
+    {
+        margin-top: auto;
+    }
+    #carouselExampleControls
+    {
+        width: 60% !important;
+    }
+}
+@media screen and (max-width: 912px){
+    .hero-img
+    {
+        margin-top: 5rem;
+    }
+    .SectionThreeSubHeading
+    {
+        padding: 0px !important;
+    }
+    .SectionThreeSubHeading h5
+    {
+        padding: 0px !important;
+    }
+    .SectionThreeIconBox{
+        padding: 2rem 0;
+    }
+    .SectionFourBox1 {
+        top: -110px;
+        gap: 0rem;
+        left: -73px;
+    }
+    .SectionFourBox2 {
+        gap: 0rem;
+        left: -67px;
+    }
+    .plr
+    {
+        padding: 0px;
+    }
+    .pt-142
+    {
+        padding-top: 0px;
+    }
+    .SectionSixImage
+    {
+        left: auto;
+    }
+    .SectionSixCircle 
+    {
+        display: none;
+    }
+    .SectionSixDot
+    {
+        display: none;
+    }
+    .SectionSeven{
+        margin-top: 0px !important;
+    }
+    .SectionSeven .container{
+        margin-top: 0px !important;
+    }
+    .SectionSevenBox
+    {
+        top: 0px;
+        left: 0px;
+    }
+    .SectionSevenImage
+    {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        padding-top: 3rem;
+    }
+    .SectionSevenCircle 
+    {
+        display: none;
+    }
+    .SectionSevenDot
+    {
+        display: none;
+    }
+    .SectionEightBox
+    {
+        top: auto;
+        right: auto;
+    }
+    .SectionEightImage
+    {
+        top: auto;
+        left: auto;
+        padding-top: 3rem;
+    }
+    .SectionEightCircle 
+    {
+        display: none;
+    }
+    .SectionEightDot
+    {
+        display: none;
+    }
+    .SectionNine{
+        margin-top: 0px !important;
+    }
+    .SectionNine .container{
+        margin-top: 0px !important;
+    }
+    .SectionNineBox
+    {
+        top: auto;
+        left: auto;
+    }
+    .SectionNineImage
+    {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .SectionNineCircle 
+    {
+        display: none;
+    }
+    .SectionNineDot
+    {
+        display: none;
+    }
+    .SectionTen{
+        margin-top: 0px !important;
+    }
+    .SectionTen .container{
+        margin-top: 0px !important;
+    }
+    .SectionTenBox{
+        top: auto;
+        bottom: auto;
+        right: auto;
+    }
+    .SectionTenImage
+    {
+        top: auto;
+        right: auto;
+    }
+    .SectionTenCircle 
+    {
+        display: none;
+    }
+    .SectionTenDot
+    {
+        display: none;
+    }
+    .mt-30{
+        margin-top: auto;
+    }
+    .submainBox1
+    {
+        display: none;
+    }
+    .mainBox{
+        height: auto;
+        margin: auto;
+    }
+    .submainBox
+    {
+        height: auto;
+    }
+    .InputTypeText{
+        width: auto;
+    }
+    .InputTypeTextarea {
+        width: 560px;
+    }
+    .Footer
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-nav
+    {
+        gap: 16px !important;
+        margin: revert;
+    }
+    .SectionOne .container
+    {
+        margin-top: auto !important;
+    }
+    .SectionFourHeading
+    {
+        text-align: center;
+    }
+    .SectionFourH5
+    {
+        padding-right: 0px !important;
+        padding: 0 2rem;
+        text-align: center !important;
+    }
+    .SectionFourCol6
+    {
+        margin-left: 70px;
+    }
+
+    /* Service Css */
+
+    .ServiceSectorBox
+    {
+        gap: 2.5rem;
+    }
+    .ServiceBorder
+    {
+        top: 100px;
+        left: 100px;
+    }
+    .ServiceIconBox
+    {
+        top: 100px;
+        left: 270px;
+    }
+    .ServiceBlur
+    {
+        top: 105px;
+        left: 240px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 150px;
+        left: 30px;
+    }
+    .ServiceImageBox2
+    {
+        top: 240px;
+        left: 280px;
+    }
+    .margin-bottom{
+        margin-bottom: 4.38px;
+    }
+    .mt-autos
+    {
+        margin-top: auto !important;
+    }
+    .mb-autos
+    {
+        margin-bottom: auto !important;
+    }
+    .mb-40
+    {
+        margin-bottom: 40px;
+    }
+
+    /* Impact Css */
+    .ImpactVideos
+    {
+        margin-left: auto !important;
+    }
+    .ImpactImages
+    {
+        display: none;
+    }
+    .mt
+    {
+        margin-bottom: 2.125rem;
+    }
+
+    /* Company Css */
+    .CompanyTeamRow
+    {
+        justify-content: center;
+    }
+    .CompanyTeamContainer {
+        margin-left: auto;
+    }
+    #carouselExampleControls
+    {
+        width: 81% !important;
+    }
+    .SectionGap
+    {
+        gap: 1rem;
+    }
+    .ServiceIconBox
+    {
+        top: 125px;
+    }
+    .ServiceImageBox2
+    {
+        top: 260px;
+    }
+    .margin-left-70{
+        margin-left: 70px !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .SectionThreeIconBox{
+        width: 500px;
+    }
+    .SectionThreeIconContainer{
+        flex-flow: wrap;
+        gap: 3rem;
+    }
+    .SectionFourCol6{
+        margin-left: auto;
+    }
+    .SectionFourBox3{
+        left: 100px;
+    }
+    .SectionFourBox1{
+        top: -161px;
+         left: -30px;
+    }
+    .SectionFourBox2{
+        left: -32px;
+        top: -65px;
+    }
+    .SectionServiceBox
+    {
+        gap: 2rem;
+        flex-flow: column;
+    }
+    .SectionImpactBox{
+        gap: 2rem;
+    }
+    .SectionImpactSliderBox
+    {
+        flex-flow: wrap;
+    }
+    .SectionImpactImageBox
+    {
+        display: none;
+    }
+    .SectionImpactImage{
+        position: relative;
+        top: 55px;
+        left: 10px;
+    }
+    .SectionImpactSliderBox2
+    {
+        z-index: 1;
+        width: auto;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    } 
+    .SectionProductBox
+    {
+        width: 500px;
+    }  
+    .Footer .FooterRow
+    {
+        gap: 2rem;
+    }   
+    .submainBox
+    {
+        width: 516px;
+    }   
+    .ServiceSectorBox
+    {
+        padding-top: 100px;
+        flex-flow: wrap;
+        width: 407px;
+    } 
+    .ServiceSectorBox .col
+    {
+        flex: none;
+    }  
+    
+
+    /* Company Css */
+    .CompanyTeamHeading
+    {
+        width: auto;
+    }
+    .CompanyTeamRow
+    {
+        margin-left: 70px;
+    }
+    #carouselExampleControls
+    {
+        width: 100% !important;
+    }
+    .margin-left-70 {
+        margin-left: auto !important;
+    }
+}
+@media screen and (max-width: 420px){
+    .CustomFontSizeSectionOne
+    {
+        font-size: 28px !important;
+    }
+    .SectionThreeIconBox
+    {
+        width: 383px;
+    }
+    .SectionFourCol6
+    {
+        margin-left: auto;
+    }
+    .SectionFourBox1
+    {
+        top: -160px;
+        left: -10px;
+        gap: 3rem;
+    }
+    .SectionFourBox1 img
+    {
+        width: 180px !important;
+    }
+    .SectionFourBox3
+    {
+        top: 0px;
+        left: 100px;
+    }
+    .SectionFourBox3 img
+    {
+        width: 209.55px !important;
+        height: 211.13px !important;
+    }
+    .SectionFourBox2
+    {
+        left: -14px;
+        top: -74px;
+        gap: 3rem;
+    }
+    .SectionFourBox2 img
+    {
+        width: 180px !important;
+    }
+    .SectionSixImage
+    {
+        width: auto;
+        height: auto;
+    }
+    .SectionSevenImage
+    {
+        width: auto;
+        height: auto;
+    }
+    .SectionEightImage
+    {
+        width: auto;
+        height: auto;
+    }
+    .SectionNineImage
+    {
+        width: auto;
+        height: auto;
+    }
+    .SectionTenImage
+    {
+        width: auto;
+        height: auto;
+    }
+    .submainBox {
+        width: 390px;
+        margin: auto;
+        padding: 74px 24px 98px 24px;
+    }
+    .InputTypeTextarea {
+        width: 320px;
+    }
+    .SectionThreeSubHeading h1
+    {
+        font-size: 36px !important;
+    }
+    .SectionFourH5
+    {
+        padding: 0px;
+        text-align: left !important;
+    }
+    
+    .SectionServiceBox
+    {
+        margin: auto;
+    }
+    .impact-h4
+    {
+        font-size: 22px;
+    }
+    .impact-p
+    {
+        font-size: 9px;
+    }
+    .SectionImpactBox
+    {
+        margin: auto;
+    }
+    .carousel.pointer-event
+    {
+        padding-top: 0px !important;
+    }
+    
+    .SectionProductBox
+    {
+        width: 390px;
+        margin: auto;
+    }
+    
+    .CompanyTeamRow
+    {
+        margin-left: auto;
+    }
+
+    .mb-44
+    {
+        margin-bottom: 44px;
+    }
+
+    /* Services Css */
+    .ServiceBorder
+    {
+        width: 201.67px;
+        height: 201.67px;
+    }
+    .ServiceIconBox
+    {
+        top: 140px;
+        left: 250px;
+        width: 60px;
+        height: 60px;
+    }
+    .ServiceBlur
+    {
+        top: 120px;
+        left: 225px;
+        width: 108.33px;
+        height: 108.33px;
+    }
+    .ServiceImageBox1
+    {
+        bottom: 100px;
+        width: 146.67px;
+        height: 183.33px;
+    }
+    .ServiceImageBox2
+    {
+        top: 260px;
+        left: 230px;
+        width: 130px;
+        height: 130px;
+    }
+    .ServiceSectorBox
+    {
+        width: 297px;
+        padding-top: 0px;
+    }
+    .margin-left-70 {
+        margin-left: auto !important;
+    }
+    #ForSocialSector , #ForInstitutions , #ForBusinesses{
+        margin-top: auto !important;
+    }
+
+}
+@media screen and (max-width: 395px){
+    .SectionThreeIconBox
+    {
+        width: 319px;
+        margin: auto;
+    }
+    .SectionThreeIconContainer
+    {
+        gap: 1rem;
+    }
+    .SectionThreeIconContainer .d-flex img
+    {
+        height: 2.5rem !important;
+    }
+    .impact-slider-p
+    {
+        font-size: 16px;
+    }
+    .SectionProductBox {
+        width: 350px;
+        margin: auto;
+    }
+    .submainBox {
+        width: 350px;
+    }
+    .InputTypeTextarea
+    {
+        width: 280px;
+    }
+    .SectionFourBox1
+    {
+        left: 0px;
+        gap: 0rem;
+    }
+    .SectionFourBox3
+    {
+        left: 90px;
+    }
+    .SectionFourBox2
+    {
+        left: 0px;
+        gap: 0rem;
+    }
+
+    /* Services CSS */
+    .ServiceBorder
+    {
+        left: 50px;
+    }
+    .ServiceIconBox
+    {
+        left: 200px;
+    }
+    .ServiceBlur
+    {
+        left: 175px;
+    }
+    .ServiceImageBox1
+    {
+        left: 0px;
+    }
+    .ServiceImageBox2
+    {
+        left: 195px;
+    }
+    .ServiceSectorBox
+    {
+        width: 297px;
+    }
+    .margin-left-70 {
+        margin-left: auto !important;
+    }
+}

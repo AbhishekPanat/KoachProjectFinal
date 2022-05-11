@@ -1,0 +1,877 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <title>Koach.ai</title> 
+
+    <style>
+        .NavButtonBackground
+        {
+            background-color: #6606EF;color: #fff !important;
+        }
+        .btn-primary:hover{
+            background-color: #6606EF
+        }
+        .HomeHoverBox
+        {
+            transition: all 1s ease-out;
+        }
+        .ServiceImageBox1
+        {
+            animation: rotate 3s linear infinite;
+        }
+        .ServiceImageBox2
+        {
+            animation: rotate1 3s linear infinite;
+        }
+        .ServiceIconBox
+        {
+            animation: rotate2 3s linear infinite;
+        }
+
+        
+
+        @keyframes rotate {
+				from {
+                    transform: translateX(10%);
+				}
+
+				to {
+					transform: translateX(0%);
+				}
+			}
+            @keyframes rotate1 {
+				from {
+					transform: translateX(0%);
+				}
+
+				to {
+					transform: translateX(10%);
+				}
+			}
+            @keyframes rotate2 {
+				from {
+					transform: translateX(0%);
+				}
+
+				to {
+					transform: translateX(10%);
+				}
+			}
+    </style> 
+</head>
+
+<body>
+    <!-- Nav Bar Start -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white pt-4 pb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/Logo.svg" alt="" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="gap: 2rem;">
+                    <li class="nav-item px-2 f-w-600">
+                        <a class="nav-link active CustomColor f-w-600" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-2 f-w-600">
+                        <a class="nav-link MenuButton f-w-600" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item px-2 f-w-600">
+                        <a class="nav-link MenuButton f-w-600" href="impacts.html">Impact</a>
+                    </li>
+                    <li class="nav-item px-2 f-w-600">
+                        <a class="nav-link MenuButton f-w-600" href="company.html">Company</a>
+                    </li>
+                    <li class="nav-item px-2 FontWeight300 CustomColor">
+                        <a href="contact.html" id="Btn1" class="btn btn-outline-primary" style="color: #6606EF;
+                        border-color: #6606EF;border-radius: 30px;padding-right: 1.5rem!important;padding-left: 1.5rem;font-size: 14px;">Request Demo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section One -->
+    <section class="d-flex align-items-center pt-50 pb-100 SectionOne">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column">  
+                    <div>
+                        <img src="assets/images/Logo.svg" style="height: 8rem;" alt="" class="">
+                    </div>            
+                        <h6 class="CustomColorSectionOne sectionOne-title mt-2">Building Employability For Real India</h6>
+                        <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
+                            <p class="mb-3">Upskill your people</p>
+                            <p class="">career with <span class="CustomBlueColor">Koach.AI</span></p>
+                        </h1>
+                        <h5 class="sectionOne-p">Failing to invest in career training creates
+                            serious skill gaps. Our interactive learning will level up your team's skills and help
+                            them land their dream job.</h5>
+                    <div class="mt-3">
+                        <a href="javascript:void(0)" class="btn" style="background: #6606EF;border-radius: 40px;font-weight: 500;font-size: 14px;line-height: 16px;text-transform: capitalize;color: #F0F0F2;padding: 12px 24px 12px 24px;">Request Demo</a>
+                    </div>        
+                </div>
+                <div class="col-lg-6 order-2 order-lg-2 hero-img ">
+                    <img src="assets/images/SectionOneImage.svg" alt="" class="d-inline-block align-text-top img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section Two  -->
+    <section class="d-flex align-items-center pb-100" style="padding-bottom: 111px;">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 HomeHoverBox hero-img position-relative">
+                    <!-- <div style="margin-top: 73px;">
+                        <div class="d-flex position-relative">
+                            <div style="position: relative; left: 50px;bottom: 60px;">
+                                <img src="assets/images/SectionTwoImage1.png" alt="" class="rounded-circle img-fluid">
+                            </div>
+                            <div>
+                                <img src="assets/images/SectionTwoImage2.png" class="rounded-circle img-fluid" alt="">
+                            </div>
+                            <div style="position: relative;bottom: 33px;right: 90px;">
+                                <img src="assets/images/SectionTwoImage3.svg" alt="" class="">
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="ServiceBorder" style="border: 2px solid #6606EF;"></div>
+                    <div class="ServiceIconBox" style="background-image: url(assets/images/SectionTwoImage3.svg);"></div>
+                    <div class="ServiceBlur" style="background: #7856FF;"></div>
+                    <div class="ServiceImageBox1" style="background-image: url(assets/images/SectionTwoImage1.png);"></div>
+                    <div class="ServiceImageBox2" style="background-image: url(assets/images/SectionTwoImage2.png);"></div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
+                        <p class="Testing">We will help you <span class="CustomBlueColor">get a job</span></p>
+                    </h1>
+                    <h5 class="CustomColorSectionOne FontWeight300" style="font-size: 1rem;line-height: 28px;">We will help your frontline workers in getting a job
+                        by equipping them with essential skills to move ahead in their professional lives.</h5>
+                    <div class="d-flex flex-column bd-highlight mb-3"></div>
+                    <div class="bd-highlight" style="padding: 0.5rem 0.5rem 0.5rem 0rem;"><img src="assets/images/SectionTwoTickIcon1.svg" alt="" class="">
+                    </div>
+                    <div class="bd-highlight" style="padding: 0.5rem 0.5rem 0.5rem 0rem;"><img src="assets/images/SectionTwoTickIcon2.svg" alt="" class="">
+                    </div>
+                    <div class="bd-highlight" style="padding: 0.5rem 0.5rem 0.5rem 0rem;"><img src="assets/images/SectionTwoTickIcon3.svg" alt="" class="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section Three -->
+    <section class="pb-100">
+        <div class="container d-flex flex-column">
+            <div class="SectionThreeHeading">
+                <h5 class="SectionStarterHeading">SKILLS</h5>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center SectionThreeSubHeading" style="padding: 0 200px;">
+                <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne text-center">
+                    <p class="">Focus on the <span class="CustomBlueColor"> 5 skills </span>that are essential to
+                        your career</p>
+                </h1>
+                <h5 class="CustomColorSectionOne FontWeight300 text-center" style="padding: 0 58px;font-size: 16px;line-height: 28px;">We focus on building the skills that are essential in
+                    your day-to-day career through our content, conversations & assessments.</h5>
+            </div>
+            <div class="SectionThreeIconBox">
+                <div class="SectionThreeIconContainer">
+                    <div class="d-flex flex-column" style="gap: 1rem;">
+                        <img src="assets/images/SkillIcon1.svg" alt=""style="height: 3.5rem;" class="img-fluid">
+                        <p class="SkillBelowIconText" style="display: block;">Manage Self</p>
+                    </div>
+                    <div class="d-flex flex-column" style="gap: 1rem;">
+                        <img src="assets/images/SkillIcon2.svg" alt="" style="height: 3.5rem;" class="img-fluid">
+                        <p class="SkillBelowIconText" style="display: block;">Manage Others</p>
+                    </div>
+                    <div class="d-flex flex-column" style="gap: 1rem;">
+                        <img src="assets/images/SkillIcon3.svg" alt="" style="height: 3.5rem;" class="img-fluid">
+                        <p class="SkillBelowIconText" style="display: block;">Growth Mindset</p>
+                    </div>
+                    <div class="d-flex flex-column" style="gap: 1rem;">
+                        <img src="assets/images/SkillIcon4.svg" alt="" style="height: 3.5rem;" class="img-fluid">
+                        <p class="SkillBelowIconText" style="display: block;">Professional Awareness</p>
+                    </div>
+                    <div class="d-flex flex-column" style="gap: 1rem;">
+                        <img src="assets/images/SkillIcon5.svg" alt="" style="height: 3.5rem;" class="img-fluid">
+                        <p class="SkillBelowIconText" style="display: block;">Overcome Challenges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Four  -->
+    <section class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column position-relative hero-img SectionFourCol6">
+                    <div class="d-flex justify-content-between SectionFourBox1" >
+                        <img src="assets/images/SectionFourIcon5.svg" alt="" style="width: 280px;"
+                            class="rounded-circle img-fluid">
+                        <img src="assets/images/SectionFourIcon4.svg" alt="" style="width: 280px; "
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <div class="text-center SectionFourBox3">
+                        <img src="assets/images/SectionFourIcon1.svg" alt="" style="width: 309.55px;
+                        height: 311.13px;"
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <div class="d-flex justify-content-between SectionFourBox2">
+                        <img src="assets/images/SectionFourIcon2.svg" alt="" style="width: 280px;"
+                            class="rounded-circle img-fluid">
+                        <img src="assets/images/SectionFourIcon3.svg" alt="" style="width: 280px;"
+                            class="rounded-circle img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 SectionFourHeading">
+                    <h5 class="SectionStarterHeading">METHOD</h5>
+                    <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
+                        <p class="mb-3">We are with you at <span class="CustomBlueColor">every step of the
+                                way</span> of reaching your goals</p>
+                    </h1>
+                    <h5 class="CustomColorSectionOne SectionFourH5" style="text-align: justify; line-height: 28px;font-size: 16px;font-weight: 400;padding-right: 92px;">Our
+                        foundation is the science of coaching, which applies to all endeavors of performance and helps
+                        individuals internalise what they need to focus on.</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section Five  -->
+    <section>
+        <div class="container d-flex flex-column">
+            <div class="SectionThreeHeading">
+                <h5 class="SectionStarterHeading">CHANNEL</h5>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center plr SectionThreeSubHeading">
+                <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne text-center">
+                    <p class="">Upskill yourself with a <span class="CustomBlueColor">human & tech </span> blend</p>
+                </h1>
+                <h5 class="CustomColorSectionOne FontWeight300 text-center" style="padding: 0 58px;font-size: 16px;">Access our growth in multiple platforms.</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Six -->
+    <section class="d-flex align-items-center mt-5 mb-5 mt-autos mb-autos">
+        <div class="container mt-5 mt-autos">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column" style="position: relative;">
+                    <img src="assets/images/SectionSixImage1.png" alt="" class="img-fluid SectionSixImage"> <!-- 190.42px -->
+                    <img src="assets/images/SectionSixCut1.png" alt="" class="img-fluid SectionSixCircle"> <!-- 138px -->
+                    <img src="assets/images/SectionSixImage2.svg" alt="" class="img-fluid SectionSixDot"> <!-- -12px -->
+
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div style="width: 72px;height: 72px;background: #0eddc9;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;"></div>
+                    <!-- <img src="assets/images/SectionSixIcon1.svg" alt="" class="img-fluid pt-142" style="width: 5rem;"> -->
+                    <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne">
+                        <p class="">We will help you<span class="CustomBlueColor"> get a job</span></p>
+                    </h1>
+                    <div class="d-flex justify-content-center">
+                        <h5 class="CustomColorSectionOne FontWeight300 SectionSixH5">We will help your frontline workers in getting a job by equipping them with essential skills to move ahead in their professional lives.</h5>
+                    </div>
+                    <div class="row iconText">
+                        <div class="col-12 mt-3">
+                            <img src="assets/images/SectionSixIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Goal-based personalized teaching
+                        </div>
+                        <div class="col-12 mt-3">
+                            <img src="assets/images/SectionSixIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Ensuring vernacular medium
+                        </div>
+                        <div class="col-12 mt-3">
+                            <img src="assets/images/SectionSixIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Learning through relevant scenarios
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Section Seven  -->
+    <section class="d-flex align-items-center mt-5 mb-5 SectionSeven mt-autos mb-autos">
+        <div class="container mt-5 mt-autos">
+            <div class="row">
+                <div class="col-lg-6 order-1 order-lg-1">
+                    <div class="SectionSevenBox">
+                        <img src="assets/images/SectionSevenIcon1.svg" alt="" class="d-inline-block align-text-top img-fluid pt-142" style=" width: 5rem; margin-left: 1rem;margin-bottom: 4.38px;">
+                        <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne">
+                            <p class="">We will help you<span style="color: #0EDDC9;"> get a job</span></p>
+                        </h1>
+                        <div class="d-flex justify-content-center">
+                            <h5 class="CustomColorSectionOne FontWeight300 SectionSevenH5">We will help your frontline workers in getting a job by equipping them with essential skills to move ahead in their professional lives.</h5>
+                        </div>
+                        <div class="row iconText">
+                            <div class="col-12 mt-3">
+                                Goal-based personalized teaching <img src="assets/images/SectionSevenIcon2.svg"  class="img-fluid" alt="" style="padding-left: 15px;" />
+                            </div>
+                            <div class="col-12 mt-3">
+                                Ensuring vernacular medium <img src="assets/images/SectionSevenIcon2.svg" alt="" class="img-fluid" style="padding-left: 15px;" />
+                            </div>
+                            <div class="col-12 mt-3">
+                                Learning through relevant scenarios <img src="assets/images/SectionSevenIcon2.svg" alt=""  class="img-fluid" style="padding-left: 15px;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-2 order-lg-2" style="position: relative;">
+                    <img src="assets/images/SectionSevenImage2.svg" alt="" class="img-fluid SectionSevenDot" > <!--  width: 373.78px; height: 844.8px; left: 966.79px; -->
+                    <img src="assets/images/SectionSevenImage1.svg" alt="" class="img-fluid SectionSevenImage" > <!--  width: 373.78px; height: 844.8px; left: 966.79px; -->
+                    <img src="assets/images/SectionSevenCut1.png" alt="" class="img-fluid SectionSevenCircle" > <!--  width: 650.43px; height: 639.3px;;top: 253px; left: 639px; -->
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Section Eight  -->
+    <section class="d-flex align-items-center">
+        <div class="container mt-5 mt-autos">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mb-40" style="position: relative;">
+                    <img src="assets/images/SectionEightImage1.png" alt="" class="img-fluid SectionEightImage" >
+                    <img src="assets/images/SectionSixCut1.png" alt="" class="img-fluid SectionEightCircle" > <!-- top: 794px; left: 138px; -->
+                    <img src="assets/images/SectionEightCircle1.svg" alt="" class="img-fluid SectionEightDot" >
+
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="SectionEightBox">
+                        <div style="width: 72px;height: 72px;background: #f7bb3d;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;"></div>
+                        <!-- <img src="assets/images/SectionSixIcon1.svg" alt="" class="d-inline-block align-text-top img-fluid pt-142" style="width: 5rem;"> -->
+                        <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne">
+                            <p class="">We will help you<span style="color:#0ad778;"> get a job</span></p>
+                        </h1>
+                        <div class="d-flex justify-content-center">
+                            <h5 class="CustomColorSectionOne FontWeight300" style="font-size: 16px; text-align: justify;padding-right: 37px; line-height: 28px;">We will help your frontline workers in getting a job by equipping them with essential skills to move ahead in their professional lives.</h5>
+                        </div>
+                        <div class="row iconText">
+                            <div class="col-12 mt-3">
+                                <img src="assets/images/SectionEightIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Goal-based personalized teaching
+                            </div>
+                            <div class="col-12 mt-3">
+                                <img src="assets/images/SectionEightIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Ensuring vernacular medium
+                            </div>
+                            <div class="col-12 mt-3">
+                                <img src="assets/images/SectionEightIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Learning through relevant scenarios
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Section Nine  -->
+    <section class="d-flex align-items-center mt-5 mb-5 SectionNine">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="SectionNineBox">
+                        <img src="assets/images/SectionSevenIcon1.svg" alt="" class="d-inline-block align-text-top img-fluid pt-142" style="width: 5rem; margin-left: 1rem;margin-bottom: 4.38px;">
+                        <!-- <div style="width: 72px;height: 72px;background: #0EDDC9;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;margin-left: 30rem;"></div> -->
+                        <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne">
+                            <p class="">We will help you<span style="color: #0EDDC9;"> get a job</span></p>
+                        </h1>
+                        <div class="d-flex justify-content-center">
+                            <h5 class="CustomColorSectionOne FontWeight300" style="font-size: 16px; text-align: right;padding-left: 37px;line-height: 28px;">We will help your frontline workers in getting a job by equipping them with essential skills to move ahead in their professional lives.</h5>
+                        </div>
+                        <div class="row iconText">
+                            <div class="col-12 mt-3">
+                                Goal-based personalized teaching <img src="assets/images/SectionSixIcon2.svg"  class="img-fluid" alt="" style="padding-left: 15px;" />
+                            </div>
+                            <div class="col-12 mt-3">
+                                Ensuring vernacular medium <img src="assets/images/SectionSixIcon2.svg" alt="" class="img-fluid" style="padding-left: 15px;" />
+                            </div>
+                            <div class="col-12 mt-3">
+                                Learning through relevant scenarios <img src="assets/images/SectionSixIcon2.svg" alt=""  class="img-fluid" style="padding-left: 15px;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="position: relative;">
+                    <img src="assets/images/SectionNineCircle1.svg" alt="" class="img-fluid SectionNineDot" > <!--  width: 373.78px; height: 844.8px; left: 966.79px; -->
+                    <img src="assets/images/SectionNineImage1.svg" alt="" class="img-fluid SectionNineImage" > <!--  width: 373.78px; height: 844.8px; left: 966.79px; -->
+                    <img src="assets/images/SectionSevenCut1.png" alt="" class="img-fluid SectionNineCircle" > <!--  width: 650.43px; height: 639.3px;;top: 253px; left: 639px; -->
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Section Ten  -->
+    <section class="d-flex align-items-center mt-5 mb-5 SectionTen">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1" style="position: relative;">
+                    <img src="assets/images/SectionTenImage1.png" alt="" class="img-fluid SectionTenImage"> <!-- width:  318.58px; height: 449.41px; left: 67.42px; top: 1466px; -->
+                    <img src="assets/images/SectionTenCut1.png" alt="" class="img-fluid SectionTenCircle"> <!-- top: 1363px; left: 388px; -->
+                    <img src="assets/images/SectionTenCircle1.svg" alt="" class="img-fluid SectionTenDot">
+
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 mb-40">
+                    <div class="SectionTenBox">
+                        <img src="assets/images/SectionTenIcon1.svg" alt="" class="d-inline-block align-text-top img-fluid pt-142" style="width: 5rem;margin-bottom: 4.38px;">
+                        <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne">
+                            <p class="">We will help you<span class="CustomBlueColor"> get a job</span></p>
+                        </h1>
+                        <div class="d-flex justify-content-center">
+                            <h5 class="CustomColorSectionOne FontWeight300" style="font-size: 16px; text-align: justify;padding-right: 37px; line-height: 28px;">We will help your frontline workers in getting a job by equipping them with essential skills to move ahead in their professional lives.</h5>
+                        </div>
+                        <div class="row iconText">
+                            <div class="col-12 mt-3">
+                                <img src="assets/images/SectionSevenIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Goal-based personalized teaching
+                            </div>
+                            <div class="col-12 mt-3">
+                                <img src="assets/images/SectionSevenIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Ensuring vernacular medium
+                            </div>
+                            <div class="col-12 mt-3">
+                                <img src="assets/images/SectionSevenIcon2.svg" alt="" class="img-fluid" style="padding-right: 15px;">Learning through relevant scenarios
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Section Service -->
+    <section class="pb-100 mt-30 SectionService" style="padding-bottom: 181px;">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex justify-content-center">
+                <h5 class="SectionStarterHeading">SERVICES</h5>
+            </div>
+            <div class="d-flex justify-content-center" style="padding-bottom: 64px;">
+                <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne">
+                    <p class="">Our <span class="CustomBlueColor">services </span> cater to</p>
+                </h1>
+            </div>
+            <div class="SectionServiceBox">
+                <div style="display: flex; justify-content: center; flex-direction: column; gap: 0.8rem;">
+                    <img src="assets/images/SectionServiceImage1.png" class="img-fluid" alt="" />
+                    <h4 class="service-h4" style="color: #0EDDC9;">Businesses</h4>
+                    <a href="services.html#ForBusinesses" class="service-a" style="color: #0EDDC9;text-decoration: none;">Know More <i class="fa fa-angle-right"></i></a>
+                </div>
+                <div style="display: flex; justify-content: center; flex-direction: column; gap: 0.8rem;">
+                    <img src="assets/images/SectionServiceImage3.png" class="img-fluid" alt="" />
+                    <h4 class="service-h4" style="color: #F8BC3B;">Social Sector</h4>
+                    <a href="services.html#ForSocialSector"  class="service-a" style="color: #F8BC3B;text-decoration: none;">Know More <i class="fa fa-angle-right"></i></a>
+                </div>
+                <div style="display: flex; justify-content: center; flex-direction: column; gap: 0.8rem;">
+                    <img src="assets/images/SectionServiceImage2.png" class="img-fluid" alt="" />
+                    <h4 class="service-h4" style="color: #FF9408;">Institutions</h4>
+                    <a href="services.html#ForInstitutions" class="service-a" style="color: #FF9408;text-decoration: none;">Know More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Impact -->
+    <section class="pb-100 SectionImpact">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="SectionImpactHeading">
+                <h5 class="SectionStarterHeading">IMPACT</h5>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center plr SectionImpactSubHeading" style="margin-bottom: 22px;">
+                <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne text-center">
+                    <p class="">Check out the lives we have <span class="CustomBlueColor">changed</span></p>
+                </h1>
+            </div>
+            <div class="SectionImpactBox">
+                <div style="display: flex; justify-content: center; flex-direction: column;">
+                    <h4 class="impact-h4"><span class="counter">90</span>%</h4>
+                    <p class="impact-p">Live Classes</p>
+                </div>
+                <div style="display: flex; justify-content: center; flex-direction: column;">
+                    <h4 class="impact-h4"><span class="counter">60</span>%</h4>
+                    <p class="impact-p">Lower Cost</p>
+                </div>
+                <div style="display: flex; justify-content: center; flex-direction: column;">
+                    <h4 class="impact-h4"><span class="counter">5</span>x</h4>
+                    <p class="impact-p">Scalability</p>
+                </div>
+                <div style="display: flex; justify-content: center; flex-direction: column;">
+                    <h4 class="impact-h4"><span class="counter">100</span>%</h4>
+                    <p class="impact-p">Mainstream Inclusion</p>
+                </div>
+            </div>
+
+            
+            
+            <div id="carouselExampleControls" class="carousel slide pt-5" data-ride="carousel" style="width: 50%;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="SectionImpactSliderBox">
+                            <div class="SectionImpactSliderBox1">
+                                <div class="SectionImpactImageBox">
+                                    <img src="assets/images/SectionImpactImage2.png" class="img-fluid" />
+                                </div>
+                                <img src="assets/images/SectionImpactImage1.png" class="img-fluid SectionImpactImage" />
+                            </div>
+                            <div class="SectionImpactSliderBox2">
+                                <p class="impact-slider-p">The best career guidance I’ve gotten in my life....Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit amet, consectetur adipiscing </p>
+                                <p class="impact-slider-p1" style="margin-bottom: 8px;">User Name</p>
+                                <p class="impact-slider-p1">Job Title, Company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="SectionImpactSliderBox">
+                            <div class="SectionImpactSliderBox1">
+                                <div class="SectionImpactImageBox">
+                                    <img src="assets/images/SectionImpactImage2.png" class="img-fluid" />
+                                </div>
+                                <img src="assets/images/SectionImpactImage1.png" class="img-fluid SectionImpactImage" />
+                            </div>
+                            <div class="SectionImpactSliderBox2">
+                                <p class="impact-slider-p">The best career guidance I’ve gotten in my life....Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit amet, consectetur adipiscing </p>
+                                <p class="impact-slider-p1" style="margin-bottom: 8px;">User Name</p>
+                                <p class="impact-slider-p1">Job Title, Company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="SectionImpactSliderBox">
+                            <div class="SectionImpactSliderBox1">
+                                <div class="SectionImpactImageBox">
+                                    <img src="assets/images/SectionImpactImage2.png" class="img-fluid" />
+                                </div>
+                                <img src="assets/images/SectionImpactImage1.png" class="img-fluid SectionImpactImage" />
+                            </div>
+                            <div class="SectionImpactSliderBox2">
+                                <p class="impact-slider-p">The best career guidance I’ve gotten in my life....Lorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit amet, consectetur adipiscing </p>
+                                <p class="impact-slider-p1" style="margin-bottom: 8px;">User Name</p>
+                                <p class="impact-slider-p1">Job Title, Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev"
+                    style="text-decoration: none;font-size:4rem; color: #6606EF; left: -120px;opacity: 1;"
+                    href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next"
+                    style="text-decoration: none;font-size:4rem; color: #6606EF; right: -120px;opacity: 1;"
+                    href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="pt-5">
+                <a href="impacts.html" class="impact-a" style="text-decoration: none;">Read More Stories <i class="fa fa-angle-right" style="padding-left: 8px;"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Section Product -->
+    <section class="pb-100 SectionProduct">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex justify-content-center">
+                <h5 class="SectionStarterHeading">PRODUCT</h5>
+            </div>
+            <div class="d-flex justify-content-center">
+                <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne" style="margin-bottom: 40px;">
+                    <p class="">Check out <span class="CustomBlueColor">how it works</span></p>
+                </h1>
+            </div>
+            <div class="SectionProductBox">
+                <div style="width: 80px;height: 80px;background: #428FFE;border-radius: 50%;" class="d-flex justify-content-center align-items-center">
+                    <!-- <i class="fa fa-caret-right fa-4x text-white"></i> -->
+                    <img src="assets/images/SectionProductIcon1.png" class="img-fluid" style="padding-left: 8px;"/>
+                </div>
+            </div>
+            <div class="pt-5">
+                <a href="#" class="impact-a" style="text-decoration: none;font-weight: 600;">To Know More Requst a demo <i class="fa fa-angle-right fa-1x" style="padding-left: 8px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Request Demo -->
+    <section class="SectionRequestDemo">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex justify-content-center">
+                <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne" style="margin-bottom:36px;">
+                    <p class=""><span class="CustomBlueColor">Get in touch </span>with us</p>
+                </h1>
+            </div>
+            <div class="mainBox">
+                <div class="submainBox1">
+                    <span class="contact-h4" style="margin-right: 10px;">Talk to <br>Koach.AI expert</span>
+                    <span class="contact-span">Have questions about Koach.AI? Fill out the form to contact a koach.ai expert.</span>
+                    <div class="d-flex flex-column" style="gap: 9.5px;">
+                        <div style="width: 314px;height: 64px;background: #F7F7F7;border-radius: 52px;" class="d-flex align-items-center">
+                            <div style="background: #6606EF;border-radius: 48px;width: 40px;height: 40px;margin: 0px 12px;" class="d-flex justify-content-center align-items-center">
+                                <img src="assets/images/SectionContactIcon1.png" class="img-fluid" />
+                            </div>
+                            <div>
+                                <span class="contact-span2">for businesses</span>
+                            </div>
+                        </div> 
+                        <div style="width: 314px;height: 64px;background: #F7F7F7;border-radius: 52px;" class="d-flex align-items-center">
+                            <div style="background: #6606EF;border-radius: 48px;width: 40px;height: 40px;margin: 0px 12px;" class="d-flex justify-content-center align-items-center">
+                                <img src="assets/images/SectionContactIcon1.png" class="img-fluid" />
+                            </div>
+                            <div>
+                                <span class="contact-span2">for social sector</span>
+                            </div>
+                        </div> 
+                        <div style="width: 314px;height: 64px;background: #F7F7F7;border-radius: 52px;" class="d-flex align-items-center">
+                            <div style="background: #6606EF;border-radius: 48px;width: 40px;height: 40px;margin: 0px 12px;" class="d-flex justify-content-center align-items-center">
+                                <img src="assets/images/SectionContactIcon1.png" class="img-fluid" />
+                            </div>
+                            <div>
+                                <span class="contact-span2">for institutes</span>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="submainBox">
+                    <form action="#" id="fupForm">
+                        <div class="row">
+                            <div class="col-lg-6" style="padding-bottom: 40px;">
+                                <label for="name" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Name</label>
+                                <div class="InputTypeText">
+                                    <input type="text" placeholder="Your Name" id="name" name="name" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <div><img src="assets/images/user.png" class="img-fluid" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6" style="padding-bottom: 40px;">
+                                <label for="Organisation" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Organisation</label>
+                                <div class="InputTypeText">
+                                    <input type="text" placeholder="Where do you work at?" id="Organisation" name="Organisation" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <div><img src="assets/images/company.png" class="img-fluid" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6" style="padding-bottom: 40px;">
+                                <label for="Number" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Number</label>
+                                <div class="InputTypeText">
+                                    <input type="text" placeholder="Your mobile number" id="Number" name="Number" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <div><img src="assets/images/Phone.png" class="img-fluid" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6" style="padding-bottom: 40px;">
+                                <label for="Email" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Email</label>
+                                <div class="InputTypeText">
+                                    <input type="text" placeholder="Work email" id="Email" name="Email" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <div><img src="assets/images/mail.png" class="img-fluid" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12" style="padding-bottom: 16px;">
+                                <label for="Message" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Message</label>
+                                <textarea placeholder="Can you provide more details?" id="Message" name="Message" class="InputTypeTextarea"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="submit" name="submit" id="submit" value="Request Demo" class="btn submitBtn" style="background: #6606EF;border-radius: 40px;font-weight: 500;font-size: 14px;line-height: 16px;text-transform: capitalize;color: #F0F0F2;padding: 12px 24px 12px 22.31px;"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section>
+        <div class="container Footer">
+            <div class="row FooterRow">
+                <div class="col-md-4 d-flex flex-column" style="gap: 1rem;">
+                    <div>
+                        <img src="assets/images/footerLogo.png" class="img-fluid" />
+                        <span class="footer-h4" style="padding-left:10px;">Koach.ai</span>
+                    </div>
+                    <span class="footer-p">Koach Al Technologies Private Limited </span>
+                    <span class="footer-p">499. 7th Main, 3rd Cross, HAL, 2nd Stage Bengaluru, Karnataka 560038.</span>
+                    <span class="footer-p">Monday - Friday: 9:30 AM - 5:30 PM</span>
+                </div>
+                <div class="col-md-3 d-flex flex-column" style="gap: 1rem;">
+                    <span class="footer-h4">Contact Us</span>
+                    <span class="footer-p" >enquiry@koach.ai</span>
+                    <span class="footer-p">0804122-8808  /  +91 98801 75753 
+                        (9:30 AM to 5:30 PM)</span>
+                </div>
+                <div class="col-lg-2 col-md-3 d-flex flex-column" style="gap: 1rem;">
+                    <span class="footer-h4">Services</span>
+                    <div class="row">
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">for Businesses</a>
+                        </div>
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">for social sector</a>
+                        </div>
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">for institutes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 d-flex flex-column" style="gap: 1rem;">
+                    <span class="footer-h4">Follow us</span>
+                    <div class="row" style="width: 100px;">
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">LinkedIn</a>
+                        </div>
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">Facebook</a>
+                        </div>
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">Twitter</a>
+                        </div>
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">Youtube</a>
+                        </div>
+                        <div class="col-lg-12 p-2">
+                            <a href="#" class="footer-p">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+            $("#fupForm").on('submit', function(e){
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: 'process.php',
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData:false,
+                    beforeSend: function(){
+                        $('.submitBtn').attr("disabled","disabled");
+                        $('#fupForm').css("opacity",".5");
+                    },
+                    success: function(response){
+                        console.log(response);
+                        if(response.status == 1){
+                            $('#fupForm')[0].reset();
+                            $("#divclg").hide();
+                                toastr.options = {
+                                  "closeButton": true,
+                                  "debug": false,
+                                  "newestOnTop": true,
+                                  "progressBar": true,
+                                  "positionClass": "toast-top-right",
+                                  "preventDuplicates": false,
+                                  "onclick": null,
+                                  "showDuration": "300",
+                                  "hideDuration": "1000",
+                                  "timeOut": "5000",
+                                  "extendedTimeOut": "1000",
+                                  "showEasing": "swing",
+                                  "hideEasing": "linear",
+                                  "showMethod": "fadeIn",
+                                  "hideMethod": "fadeOut"
+                                }
+                                toastr["success"](response.message, "Success");
+                        }else{
+                            toastr.options = {
+                                  "closeButton": true,
+                                  "debug": false,
+                                  "newestOnTop": true,
+                                  "progressBar": true,
+                                  "positionClass": "toast-top-right",
+                                  "preventDuplicates": false,
+                                  "onclick": null,
+                                  "showDuration": "300",
+                                  "hideDuration": "1000",
+                                  "timeOut": "5000",
+                                  "extendedTimeOut": "1000",
+                                  "showEasing": "swing",
+                                  "hideEasing": "linear",
+                                  "showMethod": "fadeIn",
+                                  "hideMethod": "fadeOut"
+                                }
+                                toastr["error"](response.message, "Error");
+                            //$('.statusMsg').html('<p class="alert alert-danger">'+response.message+'</p>');
+                        }
+                        $('#fupForm').css("opacity","");
+                        $(".submitBtn").removeAttr("disabled");
+                    }
+                });
+            });
+        });
+        jQuery(window).on('scroll', function () {
+                console.log(jQuery(window).scrollTop());
+                if (jQuery(window).scrollTop() > 540) {
+                    $('#Btn1').addClass('btn-primary');
+                    $('#Btn1').addClass('NavButtonBackground');
+                    $('#Btn1').removeClass('btn-outline-primary');
+                } 
+                else {
+                    $('#Btn1').addClass('btn-outline-primary');
+                    $('#Btn1').removeClass('btn-primary');
+                    $('#Btn1').removeClass('NavButtonBackground');
+                }
+            });
+
+            const text =   document.querySelector(".Testing");
+            const textLoad = () => {
+                setTimeout(()=>{
+                    text.textContent="We will help you get a job";
+                },0);
+                setTimeout(()=>{
+                    text.textContent='We will help you get a jobs';
+                },3000);
+                setTimeout(()=>{
+                    text.textContent="We will help you get a jobss";
+                },6000);
+            }
+            textLoad();
+            setInterval(textLoad,9000);
+    </script>
+    
+</body>
+
+</html>

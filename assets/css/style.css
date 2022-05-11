@@ -1,0 +1,557 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.FontWeight300 {
+    font-weight: 300;
+}
+
+.FontWeight400 {
+    font-weight: 400;
+}
+
+.FontWeight500 {
+    font-weight: 500;
+}
+
+.FontWeight700 {
+    font-weight: 700;
+}
+
+.NavWidthCustom {
+    width: 80% !important;
+}
+
+.CustomColor {
+    color: #6606EF !important;
+}
+
+.CustomBlueColor {
+    color: #00fcb4;
+}
+
+.CustomColorBorder {
+    color: #6606EF !important;
+    border-color: #6606EF !important;
+}
+
+.MenuButton:hover {
+    color: #6606EF !important;
+}
+
+.CustomColorSectionOne {
+    color: #17171A !important;
+}
+
+.CustomFontSizeSectionOne {
+    font-size: 42px !important;
+}
+
+.SectionStarterHeading {
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+    color: #6606EF !important;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.SkillBelowIconText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #17171A;
+}
+
+/* ABHISHEK CSS */
+
+.max-w-6xl {
+    max-width: 72rem;
+}
+
+.mx-auto
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.f-w-600
+{
+    font-weight: 600;
+}
+.sectionOne-title
+{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.sectionOne-p
+{
+    max-width: 31rem;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #17171A;
+}
+.btn-outline-primary:hover {
+    background-color: #6606EF;
+    color: #fff !important;
+}
+.pt-100
+{
+    padding-top: 100px;
+}
+.pt-50
+{
+    padding-top: 50px;
+}
+.pb-100
+{
+    padding-bottom: 100px;
+}
+.iconText{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    text-transform: capitalize;
+
+    color: #17171A;
+}
+.service-h4
+{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 127% */
+
+    text-align: center;
+}
+.service-a
+{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    text-transform: capitalize;
+}
+.impact-h4
+{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #6606EF;
+}
+.impact-p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;   
+}
+.impact-slider-p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+
+
+    /* Base/500 */
+
+    color: #F0F0F2;
+}
+.impact-slider-p1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-transform: capitalize;
+
+    /* Base/500 */
+
+    color: #F0F0F2;
+}
+.impact-a{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #6606EF;
+}
+.contact-h4
+{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.contact-span{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.contact-span2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    text-transform: capitalize;
+
+    /* Base/100 */
+
+    color: #17171A;
+
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.footer-h4{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 127% */
+
+
+    color: #6606EF;
+}
+.footer-p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+
+    color: #17171A;
+    text-decoration: none;
+}
+
+.SectionSixImage
+{
+    z-index: 1;position: relative; width: 418.58px; height: 457.41px; left: 43.42px;
+}
+.SectionSixCircle{
+    position: absolute; width: 501.43px; height: 589.3px; top: 221px; left: -8px;
+}
+.SectionSixDot
+{
+    position: absolute; top: 204px; right: 46px;
+}
+.SectionSixH5
+{
+    font-size: 16px; text-align: justify;padding-right: 37px; line-height: 28px;
+}
+
+.SectionSevenImage
+{
+    z-index: 1; position: absolute;  width: 373.78px; height: 366.8px; top: 192px; left: 112px;
+}
+.SectionSevenCircle
+{
+    position: absolute; width: 501.43px; height: 589.3px; top: 240px; right: 140px;
+}
+.SectionSevenDot
+{
+    z-index: 1; position: absolute;  width: 35.45px; height: 35.45px; top: 218px; left: 3px;
+}
+.SectionSevenBox{
+    text-align: right; position: relative; top: 140px; left: 50px;
+}
+.SectionSevenH5
+{
+    font-size: 16px; text-align: right;padding-left: 37px;line-height: 28px;
+}
+
+.SectionEightImage
+{
+    z-index: 1;position: relative; width:  415.58px; height: 465.41px; left: -96px; top: 109px;
+}
+.SectionEightCircle
+{
+    position: absolute; width: 420.43px; height: 589.3px; top: 257px; left: 95px;
+}
+.SectionEightDot
+{
+    position: absolute; top: 244px; right: 125px;
+}
+.SectionEightBox
+{
+    position: relative; top: 150px; right: 175px;
+}
+
+.SectionNineImage
+{
+    z-index: 1; position: absolute;  width: 373.78px; height: 366.8px; top: 192px; left: 112px;
+}
+.SectionNineCircle
+{
+    position: absolute; width: 501.43px; height: 589.3px; top: 274px; right: 156px;
+}
+.SectionNineDot
+{
+    z-index: 1; position: absolute;  width: 35.45px; height: 35.45px; top: 262px; left: 3px;
+}
+.SectionNineBox
+{
+    text-align: right; position: relative; top: 166px; left: 50px;
+}
+
+.SectionTenImage
+{
+    z-index: 1;position: relative;width: 250.55px; height: 346.41px; right: 35px; top: 313px; 
+}
+.SectionTenCircle
+{
+    position: absolute; width: 250.43px; height: 175.3px; top: 283px; left: 250px;
+}
+.SectionTenDot
+{
+    position: absolute; top: 414px; right: 285px;
+}
+
+.SectionTenBox{
+    position: relative; top: 300px; right: 290px;
+}
+
+.Footer
+{
+    margin-right: 146px;margin-left: 144px;margin-bottom: 90px;margin-top: 137px;
+}
+
+.SectionFourBox1{
+    position: relative;top: -135px; gap: 4rem;left: -34px;
+}
+.SectionFourBox2
+{
+    position: relative;top: -99px; gap: 3rem;left: -24px;
+}
+.SectionFourBox3{
+    position: absolute;left: 135px;
+}
+
+.plr
+{
+    padding: 0 335px;
+}
+.mt-30
+{
+    margin-top: 30rem;
+}
+
+.mainBox
+{
+    height: 594px;display: flex;flex-direction: row;align-items: flex-start;padding: 0px;background: #6606EF;border-radius: 16px;
+}
+.submainBox
+{
+    width: 716px;height: 594px;border: 10px solid #6606EF;border-radius: 16px;background:#fff;padding: 74px 37px 98px 73px;
+}
+.InputTypeText
+{
+    width: 291px;height: 40px;background: #FFFFFF;border: 1px solid rgba(0, 0, 0, 0.1);border-radius: 8px;display: flex;align-items: center;justify-content: space-between;padding: 0 10px;
+}
+.InputTypeTextarea
+{
+    border: 1px solid rgba(0, 0, 0, 0.1);border-radius: 8px;font-weight: 500;font-size: 14px;line-height: 16px;width: 606px;height: 128px;padding: 12px;
+}
+
+.SectionThreeIconBox
+{
+    padding: 55.99px 2rem 5rem 8rem;
+}
+
+.hero-img
+{
+    margin-top: 0px;
+}
+
+.SectionThreeHeading
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pt-142
+{
+    padding-top: 142px;
+}
+
+.submainBox1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 46px 70px 76px;
+    gap: 3rem;
+}
+
+.SectionThreeIconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.SectionServiceBox
+{
+    display: flex; gap: 8rem;
+}
+
+.SectionImpactBox{
+    display: flex;
+    gap: 5rem;
+}
+.SectionImpactSliderBox{
+    display: flex;
+}
+.SectionImpactBox1
+{
+    display: flex;flex-direction: column;gap: 3.5rem;
+}
+.SectionImpactImageBox{
+    text-align: end;
+}
+.SectionImpactSliderBox1
+{
+    gap: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.SectionImpactSliderBox2
+{
+    background: #6606EF;border: 1px solid rgba(255, 255, 255, 0.1);border-radius: 48px 8px 48px 0px;padding: 32px 44px 20px 44px; width: 392px;height: 256px;
+}
+.SectionProductBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 576px;height: 320px;border-radius: 16px;border-radius: 16px;background:#6606EF;
+}
+.SectionImpactHeading
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Services CSS */
+
+.ServiceSectorBox
+{
+    display: flex; margin-top: 3rem; gap: 7.5rem; justify-content: center;
+}
+
+.ServiceBorder
+{
+    width: 242px;height: 242px;box-sizing: border-box;border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.ServiceIconBox
+{
+    width: 72px;height: 72px;background: #FFF;border-radius: 40px;
+    position: absolute;
+    top: 50px;
+    right: 180px;
+    z-index: 1;
+}
+.ServiceBlur
+{
+    width: 130px;height: 130px;opacity: 1;filter: blur(112px);
+    position: absolute;
+    top: 23px;
+    right: 148px;
+}
+.ServiceImageBox1
+{
+    width: 176px;height: 220px;background: url(.jpg), #C4C4C4;border-radius: 88px;
+    position: relative;
+    bottom: 200px;
+    left: 30px;
+}
+.ServiceImageBox2
+{
+    width: 156px;height: 156px;background: url(.jpg), #C4C4C4;border-radius: 88px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+
+/* Impact Css */
+
+.ImpactImages
+{
+    position: absolute; right: -30px; bottom: 19.5rem;
+}
+
+/* Company Css */
+.CompanyTeamMT-5
+{
+    margin-top: 5rem;
+}
+.CompanyTeamHeading
+{
+    font-weight: 700; font-size: 42px; line-height: 60px; width: 44.625rem; text-align: center;
+}
+.CompanyHeading{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #0EDDC9;
+
+}
