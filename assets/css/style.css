@@ -561,3 +561,17 @@ input:focus, textarea:focus, select:focus{
     color: #0EDDC9;
 
 }
+
+.ServiceIconText
+{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    text-transform: capitalize;
+
+    color: #17171A;
+}
