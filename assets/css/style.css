@@ -413,6 +413,10 @@ input:focus, textarea:focus, select:focus{
 {
     padding: 55.99px 2rem 5rem 8rem;
 }
+.SectionThreeIconBoxPlatform
+{
+    padding: 55.99px 2rem 5rem 0rem;
+}
 
 .hero-img
 {
@@ -581,4 +585,15 @@ input:focus, textarea:focus, select:focus{
 .navbar{
     padding-top: 0!important;
     padding-bottom: 0!important;
+}
+.SectionPlatformTitle{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.PlatformBoxSize{
+    width: 45px;
+}
+.PlatformGap{
+    gap: 18rem;
 }

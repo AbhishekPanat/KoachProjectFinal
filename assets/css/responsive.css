@@ -1,4 +1,7 @@
 @media screen and (min-width:1400px) and (max-width:2652px) {
+    .mt-90px{
+        margin-top: 90px;
+    }
     .WidthCustom1{
         width: 672px;
     }
@@ -113,6 +116,9 @@
 }
 
 @media screen and (min-width:990px) and (max-width:1199px) {
+    .mt-90px{
+        margin-top: 90px;
+    }
     .RightShift{
         margin-right: 95px;
     }
@@ -314,6 +320,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    .mt-90px{
+        margin-top: 90px;
+    }
     .MarginBottomVideo{
         margin-bottom: 3.25rem!important;
     }
@@ -411,6 +420,9 @@
     }
 }
 @media screen and (max-width: 912px){
+    .mt-90px{
+        margin-top: 90px;
+    }
     .MarginBottomVideo{
         margin-bottom: 3.25rem!important;
     }
@@ -692,6 +704,18 @@
     }
 }
 @media screen and (max-width: 600px){
+    .PlatformGap{
+        gap: 5rem!important;
+    }
+    .DisplayNone{
+        display: none;
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .mt-90px{
+        margin-top: 50px;
+    }
     .pt-50{
         padding-top: 0px;
     }
@@ -793,6 +817,18 @@
     }
 }
 @media screen and (max-width: 420px){   
+    .PlatformGap{
+        gap: 5rem!important;
+    }
+    .DisplayNone{
+        display: none;
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .mt-90px{
+        margin-top: 50px;
+    }
     .pt-50{
         padding-top: 0px;
     }
@@ -974,6 +1010,18 @@
 
 }
 @media screen and (max-width: 395px){
+    .PlatformGap{
+        gap: 5rem!important;
+    }
+    .DisplayNone{
+        display: none;
+    }
+    .pb-100{
+        padding-bottom: 0px;
+    }
+    .mt-90px{
+        margin-top: 50px;
+    }
     .pt-50{
         padding-top: 0px;
     }
