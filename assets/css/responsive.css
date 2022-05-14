@@ -692,6 +692,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .pt-50{
+        padding-top: 0px;
+    }
     .MarginBottomVideo{
         margin-bottom: 3.25rem!important;
     }
@@ -790,6 +793,9 @@
     }
 }
 @media screen and (max-width: 420px){   
+    .pt-50{
+        padding-top: 0px;
+    }
     .LogoNone{
         display: none;
     }
@@ -968,6 +974,9 @@
 
 }
 @media screen and (max-width: 395px){
+    .pt-50{
+        padding-top: 0px;
+    }
     .LogoNone{
         display: none;
     }
