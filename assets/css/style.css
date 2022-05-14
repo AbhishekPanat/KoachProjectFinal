@@ -575,3 +575,10 @@ input:focus, textarea:focus, select:focus{
 
     color: #17171A;
 }
+.NavButtonBackground{
+    background-color: #6606EF;
+}
+.navbar{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}

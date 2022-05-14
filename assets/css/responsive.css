@@ -1,4 +1,20 @@
 @media screen and (min-width:1400px) and (max-width:2652px) {
+    .WidthCustom1{
+        width: 672px;
+    }
+    .WidthCustom2{
+        width: 564px;
+        height: 56px;
+    }
+    .centerBox{
+        padding-left: 30px;
+    }
+    .RightShift{
+        margin-right: 95px;
+    }
+    .MarginBottomVideo{
+        margin-bottom: 11.25rem!important;
+    }
     .SectionSixCircle{
         width: 620.43px;
     }
@@ -53,6 +69,9 @@
     {
         width: 43% !important;
     }
+    .ImpactMarginBottom{
+        margin-bottom: 14rem;
+    }
 
     /* Service Css */
 
@@ -85,9 +104,24 @@
     {
         width: 314px;
     }
+    .Footer5rem{
+        padding-left: 5rem;
+    }
+    .Footer7rem{
+        padding-left: 7rem;
+    }
 }
 
 @media screen and (min-width:990px) and (max-width:1199px) {
+    .RightShift{
+        margin-right: 95px;
+    }
+    .MarginBottomVideo{
+        margin-bottom: 11.25rem!important;
+    }
+    .ImpactMarginBottom{
+        margin-bottom: 14rem;
+    }
     .SectionFourBox3{
         left: 50px;
     }
@@ -280,6 +314,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    .MarginBottomVideo{
+        margin-bottom: 3.25rem!important;
+    }
     .SectionSevenCircle
     {
         right: 151px;
@@ -374,6 +411,9 @@
     }
 }
 @media screen and (max-width: 912px){
+    .MarginBottomVideo{
+        margin-bottom: 3.25rem!important;
+    }
     .hero-img
     {
         margin-top: 5rem;
@@ -652,6 +692,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .MarginBottomVideo{
+        margin-bottom: 3.25rem!important;
+    }
     .SectionThreeIconBox{
         width: 500px;
     }
@@ -746,7 +789,16 @@
         margin-left: auto !important;
     }
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px){   
+    .LogoNone{
+        display: none;
+    }
+    .RightShift{
+        margin-right: 30px!important;
+    }
+    .MarginBottomVideo{
+        margin-bottom: 3.25rem!important;
+    }
     .CustomFontSizeSectionOne
     {
         font-size: 28px !important;
@@ -916,6 +968,15 @@
 
 }
 @media screen and (max-width: 395px){
+    .LogoNone{
+        display: none;
+    }
+    .RightShift{
+        margin-right: 30px!important;
+    }
+    .MarginBottomVideo{
+        margin-bottom: 3.25rem!important;
+    }
     .SectionThreeIconBox
     {
         width: 319px;
