@@ -597,3 +597,9 @@ input:focus, textarea:focus, select:focus{
 .PlatformGap{
     gap: 18rem;
 }
+.ImageImapact{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px 48px 0px;
+    width: 172px;
+    height: 172px;
+}
