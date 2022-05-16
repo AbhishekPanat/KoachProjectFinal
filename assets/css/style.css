@@ -603,3 +603,12 @@ input:focus, textarea:focus, select:focus{
     width: 172px;
     height: 172px;
 }
+
+.sectionSixInnerBox
+{
+    width: 72px;height: 72px;background: #0eddc9;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;
+}
+.sectionEightInnerBox
+{
+    width: 72px;height: 72px;background: #f7bb3d;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;
+}

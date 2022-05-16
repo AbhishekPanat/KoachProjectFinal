@@ -1008,6 +1008,43 @@
         margin-top: auto !important;
     }
 
+    .sectionSixRow
+    {
+        position: relative;
+    }
+    .sectionSixCol
+    {
+        position: absolute !important;
+        top: 160px;
+    }
+    .sectionSixInnerBox
+    {
+        margin-top: 50px;
+    }
+    .sectionSixInnerContainer
+    {
+        padding-top: 500px;
+    }
+    .mb-autos
+    {
+        margin-bottom: 3rem !important;
+    }
+    .sectionEightInnerBox
+    {
+        margin-top: 50px;
+    }
+    .SectionEight
+    {
+        margin-bottom: 3rem;
+    }
+    .SectionNineImage
+    {
+        padding-top: 3rem;
+    }
+    .SectionTenImage
+    {
+        padding-top: 3rem;
+    }
 }
 @media screen and (max-width: 395px){
     .PlatformGap{
@@ -1104,5 +1141,21 @@
     }
     .margin-left-70 {
         margin-left: auto !important;
+    }
+    .SectionSixImage , .SectionSevenImage , .SectionNineImage
+    {
+        padding-top: 2rem;
+    }
+    .sectionSixInnerContainer
+    {
+        padding-top: 420px;
+    }
+    .SectionTenImage
+    {
+        padding-top: 1.5rem;
+    }
+    .pb-100
+    {
+        padding-bottom: 100px !important;
     }
 }
