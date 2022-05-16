@@ -183,20 +183,20 @@
                     <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
                         <p class="Testing">We will help you <span class="CustomBlueColor">get a job</span></p>
                     </h1>
-                    <h5 class="CustomColorSectionOne FontWeight300" style="font-size: 1rem;line-height: 28px;">We will
+                    <h5 class="CustomColorSectionOne FontWeight300 Testings" style="font-size: 1rem;line-height: 28px;">We will
                         help your frontline workers in getting a job
                         by equipping them with essential skills to move ahead in their professional lives.</h5>
                     <div class="d-flex flex-column bd-highlight mb-3"></div>
                     <div class="row">
                         <div class="col-lg-12 ServiceIconText" style="margin-bottom: 1.375rem; margin-top: 1.688rem;">
                             <img src="assets/images/SectionSixIcon2.svg" alt="" class="ServiceIcons"
-                                style="padding-right: 15px;">Goal-based personalized teaching</div>
+                                style="padding-right: 15px;"><span class="ServiceIconsText">Goal-based personalized teaching</span></div>
                         <div class="col-lg-12 ServiceIconText" style="margin-bottom: 1.375rem;"><img
                                 src="assets/images/SectionSixIcon2.svg" alt="" class="ServiceIcons"
-                                style="padding-right: 15px;">Ensuring vernacular medium</div>
+                                style="padding-right: 15px;"><span class="ServiceIconsText">Ensuring vernacular medium</span></div>
                         <div class="col-lg-12 ServiceIconText" style="margin-bottom: 1.375rem;"><img
                                 src="assets/images/SectionSixIcon2.svg" alt="" class="ServiceIcons"
-                                style="padding-right: 15px;">Learning through relevant scenarios</div>
+                                style="padding-right: 15px;"><span class="ServiceIconsText">Learning through relevant scenarios</span></div>
                     </div>
                 </div>
             </div>
@@ -208,7 +208,7 @@
     <section class="pb-100">
         <div class="container d-flex flex-column">
             <div class="SectionThreeHeading">
-                <h5 class="SectionStarterHeading">SKILLS</h5>
+                <h5 class="SectionStarterHeading">SKILLS AREA</h5>
             </div>
             <div class="d-flex flex-column justify-content-center align-items-center SectionThreeSubHeading"
                 style="padding: 0 200px;">
@@ -218,8 +218,7 @@
                         your career</p>
                 </h1>
                 <h5 class="CustomColorSectionOne FontWeight300 text-center WidthCustom2" style="font-size: 16px;line-height: 28px; ">
-                    We focus on building the skills that are essential in
-                    your day-to-day career through our content, conversations & assessments.</h5>
+                    We build a variety of skills in this 5 important dimensions that are essential to the youth's  career through our conversations, content and assessments.</h5>
             </div>
             <div class="SectionThreeIconBox">
                 <div class="SectionThreeIconContainer">
@@ -294,9 +293,9 @@
             <div class="SectionThreeHeading">
                 <h5 class="SectionStarterHeading">CHANNEL</h5>
             </div>
-            <div class="d-flex flex-column justify-content-center align-items-center plr SectionThreeSubHeading">
+            <div class="d-flex flex-column justify-content-center align-items-center plr SectionThreeSubHeading" style="padding: 0px 265px;">
                 <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne text-center">
-                    <p class="">Upskill yourself with a <span class="CustomBlueColor">human & tech </span> blend</p>
+                    <p class="">We upskill our users a mix of <span class="CustomBlueColor">human & tech </span> blends to fuel their careers</p>
                 </h1>
                 <h5 class="CustomColorSectionOne FontWeight300 text-center" style="padding: 0 58px;font-size: 16px;">
                     Access our growth in multiple platforms.</h5>
@@ -398,7 +397,7 @@
     <section class="d-flex align-items-center SectionEight">
         <div class="container mt-5 mt-autos">
             <div class="row sectionSixRow">
-                <div class="col-lg-6 order-1 order-lg-2 mb-40 sectionSixCol" style="position: relative;">
+                <div class="col-lg-6 order-1 order-lg-1 mb-40 sectionSixCol" style="position: relative;">
                     <img src="assets/images/SectionEightImage1.png" alt="" class="img-fluid SectionEightImage">
                     <img src="assets/images/SectionSixCut1.png" alt="" class="img-fluid SectionEightCircle">
                     <!-- top: 794px; left: 138px; -->
@@ -492,7 +491,7 @@
     <section class="d-flex align-items-center mt-5 mb-5 SectionTen">
         <div class="container mt-5">
             <div class="row sectionSixRow">
-                <div class="col-lg-6 order-1 order-lg-2 sectionSixCol" style="position: relative;">
+                <div class="col-lg-6 order-1 order-lg-1 sectionSixCol" style="position: relative;">
                     <img src="assets/images/SectionTenImage1.png" alt="" class="img-fluid SectionTenImage">
                     <!-- width:  318.58px; height: 449.41px; left: 67.42px; top: 1466px; -->
                     <img src="assets/images/SectionTenCut1.png" alt="" class="img-fluid SectionTenCircle">
@@ -972,6 +971,7 @@
         });
 
         const text = document.querySelector(".Testing");
+        const texts = document.querySelector(".Testings");
 
         const border = document.querySelector(".ServiceBorder");
         const icon = document.querySelector(".ServiceIconBox");
@@ -980,14 +980,16 @@
         const box2 = document.querySelector(".ServiceImageBox2");
 
         const icons = document.querySelectorAll(".ServiceIcons");
+        const iconsText = document.querySelectorAll(".ServiceIconsText");
 
-        // console.log(icons[0].src);
+        console.log(iconsText[0].textContent);
         // console.log(icons[1].src);
         // console.log(icons[2].src);
         const textLoad = () => {
             setTimeout(() => {
                 text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#FF9408;">get a job</span>';
-
+                texts.innerHTML = 'We help the youth get jobs by focusing on developing their employability skills that will be critical to being job ready.';
+                
                 border.style.borderColor = "#FF9408";
                 blurs.style.backgroundColor = "#FF9408";
                 icon.style.backgroundImage = "url(assets/images/ServiceIcon3.png)";
@@ -997,31 +999,45 @@
                 icons[0].src = "assets/images/SectionSixTickIcon1.svg";
                 icons[1].src = "assets/images/SectionSixTickIcon1.svg";
                 icons[2].src = "assets/images/SectionSixTickIcon1.svg";
+
+                iconsText[0].textContent='Life & Soft skills that get them placed';
+                iconsText[1].textContent='Building the habit of self learning';
+                iconsText[2].textContent='Extend the learning experience with tech';
             }, 0);
             setTimeout(() => {
-                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#0EDDC9;">get a job</span>';
+                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#0EDDC9;">hold a job</span>';
+                texts.innerHTML = 'As the youth understand their role better, we help them integrate and demonstrate their best behaviour on the job.';
                 border.style.borderColor = "#0EDDC9";
                 blurs.style.backgroundColor = "#0EDDC9";
                 icon.style.backgroundImage = "url(assets/images/ServiceIcon2.png)";
-                box1.style.backgroundImage = "url(assets/images/ServiceImage1.png)";
-                box2.style.backgroundImage = "url(assets/images/ServiceImage2.png)";
+                box1.style.backgroundImage = "url(assets/images/ServiceImage2.png)";
+                box2.style.backgroundImage = "url(assets/images/ServiceImage1.png)";
 
                 icons[0].src = "assets/images/SectionSixIcon2.svg";
                 icons[1].src = "assets/images/SectionSixIcon2.svg";
                 icons[2].src = "assets/images/SectionSixIcon2.svg";
 
+                iconsText[0].textContent='Focused development direction';
+                iconsText[1].textContent='Mentoring them regularly';
+                iconsText[2].textContent='Provide multiple support layers';
+
             }, 3000);
             setTimeout(() => {
-                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#6606EF;">get a job</span>';
+                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#6606EF;">progress a job</span>';
+                texts.innerHTML = 'Provide the young users with choices and options that can enable them to move towards dream careers.';
                 border.style.borderColor = "#6606EF";
                 blurs.style.backgroundColor = "#6606EF";
                 icon.style.backgroundImage = "url(assets/images/ServiceIcon1.png)";
-                box1.style.backgroundImage = "url(assets/images/ServiceImage3.png)";
-                box2.style.backgroundImage = "url(assets/images/ServiceImage4.png)";
+                box1.style.backgroundImage = "url(assets/images/ServiceImage4.png)";
+                box2.style.backgroundImage = "url(assets/images/ServiceImage3.png)";
 
                 icons[0].src = "assets/images/PurpleTickIcon.svg";
                 icons[1].src = "assets/images/PurpleTickIcon.svg";
                 icons[2].src = "assets/images/PurpleTickIcon.svg";
+
+                iconsText[0].textContent='Explore career possibilities and choices';
+                iconsText[1].textContent='Guidance and mentorship in their journey';
+                iconsText[2].textContent='Personalised pathways of success for all';
             }, 6000);
         }
         textLoad();
