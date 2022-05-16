@@ -612,3 +612,10 @@ input:focus, textarea:focus, select:focus{
 {
     width: 72px;height: 72px;background: #f7bb3d;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;
 }
+.ServiceIcon{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

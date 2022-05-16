@@ -1,4 +1,10 @@
 @media screen and (min-width:1400px) and (max-width:2652px) {
+    .ServiceTop{
+        margin-top: 6.813rem;
+    }
+    .SectorGap{
+        gap: 15rem;
+    }
     .mt-90px{
         margin-top: 90px;
     }
@@ -116,6 +122,9 @@
 }
 
 @media screen and (min-width:990px) and (max-width:1199px) {
+    .SectorGap{
+        gap: 15rem;
+    }
     .mt-90px{
         margin-top: 90px;
     }
@@ -320,6 +329,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    .SectorGap{
+        gap: 15rem;
+    }
     .mt-90px{
         margin-top: 90px;
     }
@@ -420,6 +432,9 @@
     }
 }
 @media screen and (max-width: 912px){
+    .SectorGap{
+        gap: 15rem;
+    }
     .mt-90px{
         margin-top: 90px;
     }
@@ -704,6 +719,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .SectorGap{
+        gap: 5rem;
+    }
     .ForPhone{
         text-align: center;
     }
@@ -730,7 +748,7 @@
     }
     .SectionThreeIconContainer{
         flex-flow: wrap;
-        gap: 3rem;
+        gap: 6rem;
     }
     .SectionFourCol6{
         margin-left: auto;
@@ -820,6 +838,9 @@
     }
 }
 @media screen and (max-width: 420px){   
+    .SectorGap{
+        gap: 5rem;
+    }
     .ForPhone{
         text-align: center;
     }
@@ -1053,6 +1074,9 @@
     }
 }
 @media screen and (max-width: 395px){
+    .SectorGap{
+        gap: 5rem;
+    }
     .ForPhone{
         text-align: center;
     }
