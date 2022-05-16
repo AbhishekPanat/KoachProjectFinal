@@ -483,7 +483,8 @@ input:focus, textarea:focus, select:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 576px;height: 320px;border-radius: 16px;border-radius: 16px;background:#6606EF;
+    width: 576px;height: 320px;border-radius: 16px;border-radius: 16px;
+    /* background:url(); */
 }
 .SectionImpactHeading
 {
@@ -632,4 +633,7 @@ input:focus, textarea:focus, select:focus{
 {
     display: flex;
     align-items: center;
+}
+.CenterAlign{
+    text-align: left;
 }

@@ -435,6 +435,9 @@
     }
 }
 @media screen and (max-width: 912px){
+    .CenterAlign{
+        text-align: center;
+    }
     .SectorGap{
         gap: 6rem;
     }
@@ -722,6 +725,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .CenterAlign{
+        text-align: center;
+    }
     .InputTypeTextarea {
         width: 385px;
     }
@@ -844,6 +850,9 @@
     }
 }
 @media screen and (max-width: 420px){
+    .CenterAlign{
+        text-align: center;
+    }
     .SectionService
     {
         padding-bottom: 100px;
@@ -1148,6 +1157,9 @@
     }
 }
 @media screen and (max-width: 395px){
+    .CenterAlign{
+        text-align: center;
+    }
     .SectorGap{
         gap: 5rem;
     }
