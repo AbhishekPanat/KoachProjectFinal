@@ -34,10 +34,10 @@
         $check = sendEmail('testing','testing',$Email,$name);
         if($check)
         {
-            echo json_encode(array("status" => 1,"msg"=>"Message Send Successfully !!!"));
+            echo json_encode(array("status" => 1,"msg"=>"Message Sent Successfully!"));
         }
         else{
-            echo json_encode(array("status" => 0,"msg"=>"Message Not Send Successfully !!!"));
+            echo json_encode(array("status" => 0,"msg"=>"Message Not Send Successfully!"));
         }
     }
     

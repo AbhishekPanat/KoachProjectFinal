@@ -326,6 +326,7 @@
         right: 80px;
     }
     
+    
 }
 
 @media screen and (max-width: 1024px){
@@ -858,7 +859,7 @@
         display: none;
     }
     .pb-100{
-        padding-bottom: 100px;
+        padding-bottom: 100px !important;
     }
     .mt-90px{
         margin-top: 50px;
@@ -882,10 +883,14 @@
     .SectionThreeIconBox
     {
         width: 383px;
+        position: absolute;
+        top: 180px;
     }
     .SectionFourCol6
     {
         margin-left: auto;
+        position: absolute !important;
+        top: 200px;
     }
     .SectionFourBox1
     {
@@ -970,7 +975,7 @@
     }
     .impact-p
     {
-        font-size: 9px;
+        font-size: 12px;
     }
     .SectionImpactBox
     {
@@ -1005,7 +1010,7 @@
     }
     .ServiceIconBox
     {
-        top: 140px;
+        top: 90px;
         left: 250px;
         width: 60px;
         height: 60px;
@@ -1025,7 +1030,7 @@
     }
     .ServiceImageBox2
     {
-        top: 260px;
+        top: 200px;
         left: 230px;
         width: 130px;
         height: 130px;
@@ -1078,6 +1083,66 @@
     .SectionTenImage
     {
         padding-top: 3rem;
+    }
+    .ml-55px
+    {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .pb-autos
+    {
+        padding-bottom: 0px !important;
+    }
+    .SectionThreeIconBoxPlatform
+    {
+        padding: 0px 0rem 5rem 0rem;
+    }
+    .pb-350px
+    {
+        padding-top: 350px;
+    }
+    .sectionCardCol
+    {
+        position: absolute !important;
+        top: 100px;
+    }
+    .text-align-center
+    {
+        text-align: center;
+    }
+    .pt-350px
+    {
+        padding-top: 350px;
+    }
+    .SectionOneBoxs
+    {
+        position: absolute;
+        top: 200px;
+    }
+    .SectionTwoBoxs
+    {
+        position: absolute !important;
+        top: 40px;
+    }
+    .SectionImpactImage
+    {
+        top: 20px;
+    }
+    .pb-600px
+    {
+        padding-bottom: 600px !important;
+    }
+    .pb-500px
+    {
+        padding-bottom: 500px !important;    
+    }
+    .IconBoxService
+    {
+        top: 140px;
+    }
+    .ImageBoxService
+    {
+        top: 260px;
     }
 }
 @media screen and (max-width: 395px){

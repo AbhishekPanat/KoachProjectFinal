@@ -575,8 +575,6 @@ input:focus, textarea:focus, select:focus{
     line-height: 18px;
     /* identical to box height, or 138% */
 
-    text-transform: capitalize;
-
     color: #17171A;
 }
 .NavButtonBackground{
@@ -593,9 +591,10 @@ input:focus, textarea:focus, select:focus{
 }
 .PlatformBoxSize{
     width: 100%;
+    gap: 1rem;
 }
 .PlatformGap{
-    gap: 18rem;
+    gap: 8rem;
 }
 .ImageImapact{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -606,16 +605,31 @@ input:focus, textarea:focus, select:focus{
 
 .sectionSixInnerBox
 {
-    width: 72px;height: 72px;background: #0eddc9;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;
+    width: 72px;height: 72px;background: #0eddc9;border-radius: 60px;margin-top: 142px;margin-bottom: 16px;
 }
 .sectionEightInnerBox
 {
-    width: 72px;height: 72px;background: #f7bb3d;border-radius: 60px;margin-top: 142px;margin-bottom: 4.38px;
+    width: 72px;height: 72px;background: #f7bb3d;border-radius: 60px;margin-top: 142px;margin-bottom: 16px;
 }
 .ServiceIcon{
     gap: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.mt-90px
+{
+    margin-top: 20px;
+}
+
+.ml-55px
+{
+    margin-left: 55px;
+}
+
+.D-FLEX-CENTER
+{
+    display: flex;
     align-items: center;
 }

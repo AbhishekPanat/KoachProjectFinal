@@ -131,20 +131,17 @@
     </nav>
 
     <!-- Section One platforms  -->
-    <section class="d-flex align-items-center pt-50 pb-100 SectionOne">
+    <section class="d-flex align-items-center pt-50 pb-100 SectionOne pb-autos">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column">
-                    <div class="d-flex justify-content-start SectionStarterHeading16px">
-                        <img src="assets/images/PlatformLeftIcon.svg" alt=""
-                            class="d-inline-block align-text-top img-fluid">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center SectionStarterHeading16px">
                         <h5 class="SectionStarterHeading16px ">Leverage the power of coaching AI </h5>
                     </div>
-                    <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4"
-                        style="margin-left: 55px;">
+                    <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4 ml-55px">
                         <p class="">The<span class="CustomBlueColor"> Koach </span>Platform</p>
                     </h1>
-                    <h5 class="sectionOne-p" style="margin-left: 55px;">The platfprm enables customised coaching for all
+                    <h5 class="sectionOne-p ml-55px">The platfprm enables customised coaching for all
                         using AI bot conversations
                         .We will help you create an experience completely unique to your organisation
                         for your people.</h5>
@@ -161,13 +158,13 @@
     <section class="d-flex align-items-center  SectionOne">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column">
+                <div class="col-lg-12 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column text-center">
                     <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
                         <p class="ForPhone">What the platform<span class="CustomBlueColor"> enables</span></p>
                     </h1>
                 </div>
             </div>
-            <div class="SectionThreeIconBoxPlatform">
+            <div class="SectionThreeIconBoxPlatform mt-90px">
                 <div class="SectionThreeIconContainer">
                     <div class="d-flex flex-column" style="gap: 1rem; width: 213px;">
                         <img src="assets/images/PlatformSectionTwo1.svg" alt="" style="height: 3.5rem;"
@@ -228,7 +225,7 @@
     <section class="d-flex align-items-center  SectionOne">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column" style="width: 100%!important;">
+                <div class="col-lg-12 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column text-center" style="width: 100%!important;">
                     <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
                         <p class="ForPhone"><span class="CustomBlueColor ">Conversation types</span> on the platform</p>
                     </h1>
@@ -291,7 +288,7 @@
     <section class="d-flex align-items-center pb-100 SectionOne">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column" style="width: 100%!important;">
+                <div class="col-lg-12 pt-5 pt-lg-0 order-1 order-lg-1 d-flex flex-column text-center" style="width: 100%!important;">
                     <h1 class="CustomColorSectionOne FontWeight700 CustomFontSizeSectionOne mt-4">
                         <p class="ForPhone">Our <span class="CustomBlueColor">current conversations</span> enable you to work on
                         </p>
@@ -540,11 +537,7 @@
 
     <script>
         jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-
+           
             $("#fupForm").on('submit', function (e) {
                 e.preventDefault();
                 $.ajax({
@@ -609,75 +602,9 @@
                 });
             });
         });
-        jQuery(window).on('scroll', function () {
-            //console.log(jQuery(window).scrollTop());
-            if (jQuery(window).scrollTop() > 540) {
-                $('#Btn1').addClass('btn-primary');
-                $('#Btn1').addClass('NavButtonBackground');
-                $('#Btn1').removeClass('btn-outline-primary');
-            }
-            else {
-                $('#Btn1').addClass('btn-outline-primary');
-                $('#Btn1').removeClass('btn-primary');
-                $('#Btn1').removeClass('NavButtonBackground');
-            }
-        });
+        
 
-        const text = document.querySelector(".Testing");
-
-        const border = document.querySelector(".ServiceBorder");
-        const icon = document.querySelector(".ServiceIconBox");
-        const blurs = document.querySelector(".ServiceBlur");
-        const box1 = document.querySelector(".ServiceImageBox1");
-        const box2 = document.querySelector(".ServiceImageBox2");
-
-        const icons = document.querySelectorAll(".ServiceIcons");
-
-        // console.log(icons[0].src);
-        // console.log(icons[1].src);
-        // console.log(icons[2].src);
-        const textLoad = () => {
-            setTimeout(() => {
-                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#FF9408;">get a job</span>';
-
-                border.style.borderColor = "#FF9408";
-                blurs.style.backgroundColor = "#FF9408";
-                icon.style.backgroundImage = "url(assets/images/ServiceIcon3.png)";
-                box1.style.backgroundImage = "url(assets/images/SectionTwoImage1.png)";
-                box2.style.backgroundImage = "url(assets/images/SectionTwoImage2.png)";
-
-                icons[0].src = "assets/images/SectionSixTickIcon1.svg";
-                icons[1].src = "assets/images/SectionSixTickIcon1.svg";
-                icons[2].src = "assets/images/SectionSixTickIcon1.svg";
-            }, 0);
-            setTimeout(() => {
-                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#0EDDC9;">get a job</span>';
-                border.style.borderColor = "#0EDDC9";
-                blurs.style.backgroundColor = "#0EDDC9";
-                icon.style.backgroundImage = "url(assets/images/ServiceIcon2.png)";
-                box1.style.backgroundImage = "url(assets/images/ServiceImage1.png)";
-                box2.style.backgroundImage = "url(assets/images/ServiceImage2.png)";
-
-                icons[0].src = "assets/images/SectionSixIcon2.svg";
-                icons[1].src = "assets/images/SectionSixIcon2.svg";
-                icons[2].src = "assets/images/SectionSixIcon2.svg";
-
-            }, 3000);
-            setTimeout(() => {
-                text.innerHTML = 'We will help you <span class="CustomBlueColor" style="color:#6606EF;">get a job</span>';
-                border.style.borderColor = "#6606EF";
-                blurs.style.backgroundColor = "#6606EF";
-                icon.style.backgroundImage = "url(assets/images/ServiceIcon1.png)";
-                box1.style.backgroundImage = "url(assets/images/ServiceImage3.png)";
-                box2.style.backgroundImage = "url(assets/images/ServiceImage4.png)";
-
-                icons[0].src = "assets/images/PurpleTickIcon.svg";
-                icons[1].src = "assets/images/PurpleTickIcon.svg";
-                icons[2].src = "assets/images/PurpleTickIcon.svg";
-            }, 6000);
-        }
-        textLoad();
-        setInterval(textLoad, 9000);
+        
     </script>
 
 </body>
