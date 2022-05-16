@@ -592,7 +592,7 @@ input:focus, textarea:focus, select:focus{
     line-height: 20px;
 }
 .PlatformBoxSize{
-    width: 45px;
+    width: 100%;
 }
 .PlatformGap{
     gap: 18rem;
