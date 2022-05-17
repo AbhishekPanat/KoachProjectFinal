@@ -895,7 +895,12 @@
     {
         width: 383px;
         position: absolute;
-        top: 180px;
+        top: 220px;
+        left: 30px;
+    }
+    .pb-400px
+    {
+        padding-bottom: 650px;
     }
     .SectionFourCol6
     {
@@ -986,7 +991,7 @@
     }
     .impact-p
     {
-        font-size: 12px;
+        font-size: 11px;
     }
     .SectionImpactBox
     {
@@ -1157,6 +1162,14 @@
     }
 }
 @media screen and (max-width: 395px){
+    .iconText
+    {
+        font-size: 11px;
+    }
+    .pb-400px
+    {
+        padding-bottom: 400px;
+    }
     .CenterAlign{
         text-align: center;
     }
