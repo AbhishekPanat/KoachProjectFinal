@@ -1207,8 +1207,11 @@
     {
         width: 319px;
         margin: auto;
-        top: 183px;
-        left: 45px;
+        top: 200px;
+        left: 40px;
+    }
+    .impact-p {
+        font-size: 9px;
     }
     .SectionThreeIconContainer
     {
@@ -1290,7 +1293,7 @@
     }
     .SectionTenImage
     {
-        padding-top: 1.5rem;
+        padding-top: 0rem;
     }
     .pb-100
     {
