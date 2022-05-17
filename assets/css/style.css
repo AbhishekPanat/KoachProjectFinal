@@ -540,7 +540,7 @@ input:focus, textarea:focus, select:focus{
 
 .ImpactImages
 {
-    position: absolute; right: -30px; bottom: 19.5rem;
+    position: absolute; right: -30px; bottom: 23.5rem;
 }
 
 /* Company Css */
@@ -636,4 +636,8 @@ input:focus, textarea:focus, select:focus{
 }
 .CenterAlign{
     text-align: left;
+}
+.ImpactMarginBottom
+{
+    margin-bottom: 10rem;
 }

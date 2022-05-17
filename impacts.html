@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-
+    <link href="assets/css/toastr.min.css" rel="stylesheet">
     <title>Koach.ai</title>  
     <style>
         .SectionStarterHeadingBlue {
@@ -92,7 +92,34 @@
     <div class="container MarginBottom390 ImpactMarginBottom">
         <div class="row" style="gap: 2rem;">
             <div class="col-lg-4" style="position: relative;">
-                <img src="assets/images/ImpactBigImage.png" style="border-radius: 25px;" class="img-fluid" alt="">
+                <div
+                    style="position: absolute;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-flow: column;
+                    padding: 24px;" 
+                >
+                    <span
+                        style="font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #F0F0F2;"
+                    >Username</span>
+                    <span
+                        style="font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        text-transform: capitalize;
+                        text-align: left;
+                        color: #F0F0F2;
+                    "
+                    >Username</span>
+                </div>
+                <img src="assets/images/ImpactBigImage.png" style="border-radius: 25px;background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 24.65%);" class="img-fluid" alt="">
                 <img src="assets/images/ImpactInverted.svg" class="img-fluid ImpactImages" alt="">
             </div>
             
@@ -288,46 +315,59 @@
                     </div>
                 </div>
                 <div class="submainBox">
-                    <form action="#">
+                    <form action="#" id="fupForm">
                         <div class="row">
                             <div class="col-lg-6" style="padding-bottom: 40px;">
-                                <label for="name" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Name</label>
+                                <label for="name"
+                                    style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Name</label>
                                 <div class="InputTypeText">
-                                    <input type="text" placeholder="Your Name" id="name" name="name" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <input type="text" placeholder="Your Name" id="name" name="name"
+                                        style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
                                     <div><img src="assets/images/user.png" class="img-fluid" /></div>
                                 </div>
                             </div>
                             <div class="col-lg-6" style="padding-bottom: 40px;">
-                                <label for="Organisation" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Organisation</label>
+                                <label for="Organisation"
+                                    style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Organisation</label>
                                 <div class="InputTypeText">
-                                    <input type="text" placeholder="Where do you work at?" id="Organisation" name="Organisation" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <input type="text" placeholder="Where do you work at?" id="Organisation"
+                                        name="Organisation"
+                                        style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
                                     <div><img src="assets/images/company.png" class="img-fluid" /></div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-6" style="padding-bottom: 40px;">
-                                <label for="Number" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Number</label>
+                                <label for="Number"
+                                    style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Number</label>
                                 <div class="InputTypeText">
-                                    <input type="text" placeholder="Your mobile number" id="Number" name="Number" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <input type="text" placeholder="Your mobile number" id="Number" name="Number"
+                                        style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
                                     <div><img src="assets/images/Phone.png" class="img-fluid" /></div>
                                 </div>
                             </div>
                             <div class="col-lg-6" style="padding-bottom: 40px;">
-                                <label for="Email" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Email</label>
+                                <label for="Email"
+                                    style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Email</label>
                                 <div class="InputTypeText">
-                                    <input type="text" placeholder="Work email" id="Email" name="Email" style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
+                                    <input type="text" placeholder="Work email" id="Email" name="Email"
+                                        style="border:0;font-weight: 500;font-size: 14px;line-height: 16px;">
                                     <div><img src="assets/images/mail.png" class="img-fluid" /></div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12" style="padding-bottom: 16px;">
-                                <label for="Message" style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Message</label>
-                                <textarea placeholder="Can you provide more details?" id="Message" name="Message" class="InputTypeTextarea"></textarea>
+                                <label for="Message"
+                                    style="font-weight: 500;font-size: 13px;line-height: 18px;margin-bottom: 8px;">Message</label>
+                                <textarea placeholder="Can you provide more details?" id="Message" name="Message"
+                                    class="InputTypeTextarea"></textarea>
                             </div>
                             <div class="col-lg-12">
-                                <input type="submit" name="submit" id="submit" value="Request Demo" class="btn" style="background: #6606EF;border-radius: 40px;font-weight: 500;font-size: 14px;line-height: 16px;text-transform: capitalize;color: #F0F0F2;padding: 12px 24px 12px 22.31px;"/>
+                                <input type="submit" name="submit" id="submit" value="Request Demo"
+                                    class="btn submitBtn"
+                                    style="background: #6606EF;border-radius: 40px;font-weight: 500;font-size: 14px;line-height: 16px;text-transform: capitalize;color: #F0F0F2;padding: 12px 24px 12px 22.31px;" />
                             </div>
                         </div>
                     </form>
@@ -398,11 +438,78 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+    <script src="assets/js/toastr.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $("#fupForm").on('submit', function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: 'process.php',
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    beforeSend: function () {
+                        $('.submitBtn').attr("disabled", "disabled");
+                        $('#fupForm').css("opacity", ".5");
+                    },
+                    success: function (response) {
+                        console.log(response);
+                        if (response.status == 1) {
+                            $('#fupForm')[0].reset();
+                            // $("#divclg").hide();
+                            toastr.options = {
+                                "closeButton": true,
+                                "debug": false,
+                                "newestOnTop": true,
+                                "progressBar": true,
+                                "positionClass": "toast-top-right",
+                                "preventDuplicates": false,
+                                "onclick": null,
+                                "showDuration": "300",
+                                "hideDuration": "1000",
+                                "timeOut": "5000",
+                                "extendedTimeOut": "1000",
+                                "showEasing": "swing",
+                                "hideEasing": "linear",
+                                "showMethod": "fadeIn",
+                                "hideMethod": "fadeOut"
+                            }
+                            toastr["success"](response.msg, "Success");
+                        } else {
+                            toastr.options = {
+                                "closeButton": true,
+                                "debug": false,
+                                "newestOnTop": true,
+                                "progressBar": true,
+                                "positionClass": "toast-top-right",
+                                "preventDuplicates": false,
+                                "onclick": null,
+                                "showDuration": "300",
+                                "hideDuration": "1000",
+                                "timeOut": "5000",
+                                "extendedTimeOut": "1000",
+                                "showEasing": "swing",
+                                "hideEasing": "linear",
+                                "showMethod": "fadeIn",
+                                "hideMethod": "fadeOut"
+                            }
+                            toastr["error"](response.msg, "Error");
+                            //$('.statusMsg').html('<p class="alert alert-danger">'+response.message+'</p>');
+                        }
+                        $('#fupForm').css("opacity", "");
+                        $(".submitBtn").removeAttr("disabled");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
