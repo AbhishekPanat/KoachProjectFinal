@@ -1207,6 +1207,8 @@
     {
         width: 319px;
         margin: auto;
+        top: 183px;
+        left: 45px;
     }
     .SectionThreeIconContainer
     {
@@ -1276,7 +1278,11 @@
     }
     .SectionSixImage , .SectionSevenImage , .SectionNineImage
     {
-        padding-top: 2rem;
+        padding-top: 0rem;
+    }
+    .SectionEightImage
+    {
+        padding-top: 1rem;
     }
     .sectionSixInnerContainer
     {
